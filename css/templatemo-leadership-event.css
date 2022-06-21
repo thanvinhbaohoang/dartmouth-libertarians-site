@@ -12,13 +12,13 @@ https://templatemo.com/tm-575-leadership-event
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                hsl(34, 100%, 50%);
-  --secondary-color:              #0d6efd;
+  --primary-color:                #FFAA67;
+  --secondary-color:              #39998e;
   --section-bg-color:             #f0f8ff;
-  --dark-color:                   #000000;
-  --navbar-bg-color:              #273053;
-  --p-color:                      #717275;
-  --highlight-icon-color:         #ff0100;
+  --dark-color:                   #2b4d59;
+  --navbar-bg-color:              #1A3256;
+  --p-color:                      #1A3256;
+  --highlight-icon-color:         #da674a;
 
   --body-font-family:             'Poppins', sans-serif;
 
@@ -38,7 +38,7 @@ https://templatemo.com/tm-575-leadership-event
 }
 
 body {
-    background: var(--white-color);
+    background:  white;
     font-family: var(--body-font-family); 
 }
 
