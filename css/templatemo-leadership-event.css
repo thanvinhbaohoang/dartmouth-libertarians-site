@@ -20,8 +20,7 @@ https://templatemo.com/tm-575-leadership-event
   --p-color:                      #1A3256;
   --highlight-icon-color:         #da674a;
 
-  --body-font-family:             'Poppins', sans-serif;
-
+  --body-font-family:            'Montserrat', sans-serif;
   --h1-font-size:                 62px;
   --h2-font-size:                 48px;
   --h3-font-size:                 36px;
@@ -65,39 +64,7 @@ h6 {
   letter-spacing: -1px;
 }
 
-h1 {
-  font-size: var(--h1-font-size);
-  letter-spacing: -2px;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: var(--h2-font-size);
-  letter-spacing: -2px;
-}
-
-h3 {
-  font-size: var(--h3-font-size);
-}
-
-h4 {
-  font-size: var(--h4-font-size);
-}
-
-h5 {
-  font-size: var(--h5-font-size);
-  line-height: normal;
-}
-
-h6 {
-  font-size: var(--h6-font-size);
-}
-
-p {
-  color: var(--p-color);
-  font-size: var(--p-font-size);
-  font-weight: var(--font-weight-normal);
-}
+/*  */
 
 ul li {
   color: var(--p-color);
@@ -299,7 +266,7 @@ strong {
 }
 
 .brand-logo {
-  font-size: 38px;
+  width: 40px;
 }
 
 .brand-text {
@@ -476,33 +443,47 @@ strong {
   HERO              
 -----------------------------------------*/
 .hero {
-  position: relative;
-  height: calc(90vh - 84px);
-}
-
-.hero::after {
-  content: "";
-  background: rgba(0, 0, 0, 0) linear-gradient(rgba(39, 48, 83, 0.1) 0%, rgb(39, 48, 83) 100%) repeat scroll 0% 0%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin-bottom: -5px;
+  display: flex;
+  flex-direction: column;
+  background:var(--navbar-bg-color);
+  justify-content: space-between;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  align-self: center;
 }
 
 .hero-text {
-  position: absolute;
-  z-index: 2;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  color: white;
+  font-size: x-large;
+  margin-top: 70px;
+
+
 }
 
-.hero .arrow-icon {
-  position: relative;
-  top: 50px;
+.contact-button {
+  border: 1px rgba(215, 100, 0, 0.829) solid;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: white;
+  color:#da674a
+}
+.highlight-videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.8);
+}
+.highlight-video {
+  width: 30%;
+  margin: 10px;
 }
 
 .video-wrap {
